@@ -107,7 +107,7 @@ const InfrastructureMap = ({ onLayersReady }) => {
         attributionControl: false,
         minZoom: 11,
         maxZoom: 18
-      }).setView([30.267, -97.743], 13);
+      }).setView([30.267, -97.743], 15);
 
       L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
         attribution: '&copy; OpenStreetMap contributors &copy; CARTO',
